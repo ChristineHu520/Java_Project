@@ -1,6 +1,5 @@
-package com.thread.demo11_lock;
+package com.thread.demo11_Lock;
 
-import java.awt.geom.FlatteningPathIterator;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 

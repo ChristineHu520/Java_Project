@@ -9,7 +9,15 @@ import java.util.logging.FileHandler;
  */
 public class demo17_File2 {
     public static void main(String[] args) {
+
         show1();
+        show2();
+    }
+
+    private static void show2() {
+        /*
+                File(String parent, String child)
+         */
     }
 
     public static void show1(){

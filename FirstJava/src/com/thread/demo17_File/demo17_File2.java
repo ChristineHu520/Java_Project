@@ -18,6 +18,8 @@ public class demo17_File2 {
         /*
                 File(String parent, String child)
          */
+        File file = new File("c:\\","a.txt");
+        System.out.println(file);
     }
 
     public static void show1(){

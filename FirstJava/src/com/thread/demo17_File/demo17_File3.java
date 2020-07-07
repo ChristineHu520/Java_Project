@@ -11,9 +11,14 @@ import static com.thread.demo17_File.demo17_File2.show1;
 public class demo17_File3 {
     public static void main(String[] args) {
         show1();
+        show2();
     }
 
-    private static void show1() {
+    private static void show2() {
+        System.out.println();
+    }
+
+    /*private static void show1() {
         File file = new File("F:\\Java资料");
         String [] list = file.list();
         for (String s : list) {
@@ -23,6 +28,8 @@ public class demo17_File3 {
         for (File file1 : listfile) {
             System.out.println(file1);
         }
-    }
+    }*/
+
+
 
 }

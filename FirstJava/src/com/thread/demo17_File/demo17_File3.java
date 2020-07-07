@@ -19,6 +19,10 @@ public class demo17_File3 {
         for (String s : list) {
             System.out.println(s);
         }
+        File[] listfile = file.listFiles();
+        for (File file1 : listfile) {
+            System.out.println(file1);
+        }
     }
 
 }

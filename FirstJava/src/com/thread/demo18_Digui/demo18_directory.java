@@ -6,7 +6,7 @@ import java.io.File;
  * @author ChristineHu
  * @date 2020-07-10 8:33
  */
-public class demo8_directory {
+public class demo18_directory {
     public static void main(String[] args) {
         File files = new File("E:\\Users\\husj27225\\JavaProjects\\FirstJava\\src\\com\\thread\\demo18_Digui");
         getAllFile(files);

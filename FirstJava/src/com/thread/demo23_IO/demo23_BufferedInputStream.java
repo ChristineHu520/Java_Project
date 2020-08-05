@@ -14,8 +14,8 @@ public class demo23_BufferedInputStream {
         BufferedInputStream bufferedInputStream = new BufferedInputStream(fileInputStream);
         int len = 0;//len是每次读取的有效字节个数
         byte[] bytes = new byte[1024];
-        bufferedInputStream.read(bytes);
-        System.out.println();
-
+        while ((len = bufferedInputStream.read(bytes))!=-1){
+            System.out.println(new String(bytes,0,len));
+        }
     }
 }

@@ -10,6 +10,9 @@ public class Person implements Serializable {
 
     private String name;
     private int age;
+    private static final long serialVersionUID = 245;
+    int a = 1;
+
 
     public Person() {
     }

@@ -9,7 +9,7 @@ import java.net.Socket;
  */
 public class FileClient {
     public static void main(String[] args) throws IOException {
-        FileInputStream fileInputStream = new FileInputStream("\\src\\com\\tcp\\demo2_FileUpload\\file");
+        FileInputStream fileInputStream = new FileInputStream("E:\\Users\\husj27225\\JavaProjects\\FirstJava\\src\\com\\tcp\\demo2_FileUpload\\file.txt");
         Socket socket = new Socket("127.0.0.1",8888);
         OutputStream outputStream = socket.getOutputStream();
         byte[] bytes = new byte[1024];
@@ -17,6 +17,7 @@ public class FileClient {
         while ((len = fileInputStream.read(bytes))!= -1){
             outputStream.write(bytes);
         }
+        socket.shutdownOutput();
         InputStream inputStream = socket.getInputStream();
         while ((len = inputStream.read(bytes))!= -1){
             System.out.println(new String(bytes,0,len));

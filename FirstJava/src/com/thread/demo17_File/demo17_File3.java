@@ -19,12 +19,12 @@ public class demo17_File3 {
     }
 
     /*private static void show1() {
-        File file = new File("F:\\Java资料");
-        String [] list = file.list();
+        File file.txt = new File("F:\\Java资料");
+        String [] list = file.txt.list();
         for (String s : list) {
             System.out.println(s);
         }
-        File[] listfile = file.listFiles();
+        File[] listfile = file.txt.listFiles();
         for (File file1 : listfile) {
             System.out.println(file1);
         }

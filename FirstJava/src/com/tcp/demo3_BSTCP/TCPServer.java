@@ -11,7 +11,7 @@ import java.net.Socket;
  */
 public class TCPServer {
     public static void main(String[] args) throws IOException {
-        ServerSocket serverSocket = new ServerSocket(8888);
+        ServerSocket serverSocket = new ServerSocket(8080);
         Socket socket = serverSocket.accept();
         //获取网络自己输入流
         InputStream inputStream = socket.getInputStream();
@@ -22,7 +22,9 @@ public class TCPServer {
         //去掉路径前面的空格
         String[] array = line.split(" ");
         //去掉路径前面的/
-        String htmlpath = array[1].substring(1);
+        String src_path = "E:\\Users\\husj27225\\JavaProjects";
+        String htmlpath = src_path + "\\" + array[1].substring(1);
+        System.out.println(htmlpath);
         FileInputStream fileInputStream = new FileInputStream(htmlpath);
         OutputStream outputStream = socket.getOutputStream();
         //http响应头的固定写法

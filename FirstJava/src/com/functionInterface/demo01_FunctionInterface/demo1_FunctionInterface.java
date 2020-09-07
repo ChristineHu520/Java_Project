@@ -1,6 +1,4 @@
-package com.functionInterface;
-
-import java.lang.reflect.Method;
+package com.functionInterface.demo01_FunctionInterface;
 
 /**
  * @author ChristineHu

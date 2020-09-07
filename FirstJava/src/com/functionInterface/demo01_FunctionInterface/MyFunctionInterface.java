@@ -1,4 +1,4 @@
-package com.functionInterface;
+package com.functionInterface.demo01_FunctionInterface;
 
 /**
  * @author ChristineHu

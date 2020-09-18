@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/FactoryPattern/DesignPattern.iml" filepath="$PROJECT_DIR$/FactoryPattern/DesignPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstJava/FirstJava.iml" filepath="$PROJECT_DIR$/FirstJava/FirstJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaProjects.iml" filepath="$PROJECT_DIR$/.idea/JavaProjects.iml" />
     </modules>

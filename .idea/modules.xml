@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FactoryPattern/DesignPattern.iml" filepath="$PROJECT_DIR$/FactoryPattern/DesignPattern.iml" />
-      <module fileurl="file://$PROJECT_DIR$/FirstJava/FirstJava.iml" filepath="$PROJECT_DIR$/FirstJava/FirstJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaPrimary_BiLiBLi/JavaPrimary_BiLiBLi.iml" filepath="$PROJECT_DIR$/JavaPrimary_BiLiBLi/JavaPrimary_BiLiBLi.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaProjects.iml" filepath="$PROJECT_DIR$/.idea/JavaProjects.iml" />
     </modules>
   </component>

@@ -7,6 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/JavaPrimary_BiLiBLi/JavaPrimary_BiLiBLi.iml" filepath="$PROJECT_DIR$/JavaPrimary_BiLiBLi/JavaPrimary_BiLiBLi.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaProjects.iml" filepath="$PROJECT_DIR$/.idea/JavaProjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/PracticeDaily/PracticeDaily.iml" filepath="$PROJECT_DIR$/PracticeDaily/PracticeDaily.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DubboDemo/dubbo-api/dubbo-api.iml" filepath="$PROJECT_DIR$/DubboDemo/dubbo-api/dubbo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DubboDemo/dubbo-consumer/dubbo-consumer.iml" filepath="$PROJECT_DIR$/DubboDemo/dubbo-consumer/dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DubboDemo/dubbo-provider/dubbo-provider.iml" filepath="$PROJECT_DIR$/DubboDemo/dubbo-provider/dubbo-provider.iml" />
     </modules>
   </component>
 </project>
